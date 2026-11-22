@@ -1,0 +1,14 @@
+{
+  "title": "TCC Tubetes: firmware de monitoramento da umidade do substrato e do ar em tubetes com ESP32",
+  "upload_type": "software",
+  "description": "Firmware para ESP32 usado no Trabalho de Conclusão de Curso 'Avaliação de biochar como componente de substrato na aclimatação de mudas clonais de eucalipto (Corymbia sp.)' (Engenharia Agronômica, ESALQ/USP, 2026). Lê quatro sensores capacitivos de umidade do substrato, DHT22 e SHT40, calcula o déficit de pressão de vapor (Tetens) e envia os dados para memória local, Google Sheets, Grafana Cloud e Telegram. A versão 1.2.0 esteve em campo de 07/10/2026 19:15 até o fim da série (15/11/2026).",
+  "creators": [
+    {"name": "Santos, Cristiano Alves dos", "affiliation": "Escola Superior de Agricultura \"Luiz de Queiroz\", Universidade de São Paulo (ESALQ/USP)"}
+  ],
+  "contributors": [
+    {"name": "Rodrigues, Paulo Hercílio Viegas", "affiliation": "Escola Superior de Agricultura \"Luiz de Queiroz\", Universidade de São Paulo (ESALQ/USP)", "type": "Supervisor"}
+  ],
+  "license": "MIT",
+  "language": "por",
+  "keywords": ["ESP32", "biochar", "eucalipto", "Corymbia", "substrato", "déficit de pressão de vapor", "monitoramento ambiental", "IoT"]
+}
